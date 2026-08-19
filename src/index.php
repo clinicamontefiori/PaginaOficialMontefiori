@@ -15,6 +15,9 @@ include ('modelo/metas.php');
     <link rel="stylesheet" href="<?php echo HOST_VAR  ?>css/carrusel.css?<?php echo $cache; ?>">
 </head>
 <body>
+
+    <noscript> <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=403452915317130&ev=PageView&noscript=1" /> </noscript>
+    
     <!-- Header -->
     <header class="header-site backdrop-blur-md fixed top-0 left-0 right-0  z-50 ">
         <?php include('vista/header.php')?>
