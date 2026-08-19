@@ -1,0 +1,1 @@
+<p class="mb-0"><a href="https://agallas.com.pe/" target="_blank">AGALLAS</a> - Copyright © 2025. All right reserved.</p>

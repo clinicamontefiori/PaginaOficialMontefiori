@@ -1,0 +1,44 @@
+RewriteEngine On
+
+# Deshabilitar listado de directorios
+Options -Indexes
+
+# Proteger archivos sensibles (sintaxis Apache 2.4)
+<FilesMatch "^(config|\.env|\.git|\.gitignore|\.htaccess|\.htpasswd|composer\.json|composer\.lock|README|LICENSE|\.sql|\.bak|\.log|\.ini)$">
+    Require all denied
+</FilesMatch>
+
+# ============================================
+# TUS REGLAS ORIGINALES (CORREGIDAS)
+# ============================================
+
+# 1. Permitir cargar archivo.php sin extensión
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Blog
+RewriteRule ^blog/([a-zA-Z0-9-]+)/?$ blog/detalle_blog.php?url_blog=$1 [L,QSA,NC]
+
+# Especialidades
+RewriteRule ^especialidades/([a-zA-Z0-9-]+)/?$ especialidades/detalle_especialidades.php?idEspecialidad=$1 [L,QSA,NC]
+
+# Médicos
+RewriteRule ^medicos/([a-zA-Z0-9-]+)/?$ medicos/detalle_medico.php?urlMedico=$1 [L,QSA,NC]
+
+# 5. Evitar que la regla general capture estas carpetas
+RewriteCond %{REQUEST_URI} !^/blog/ [NC]
+RewriteCond %{REQUEST_URI} !^/medicos/ [NC]
+
+# 6. Regla general para páginas dinámicas
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^([a-zA-Z0-9-]+)$ detalle_pagina.php?url_pagina=$1 [L,QSA,NC]
+
+# Evitar que la regla general capture estas carpetas
+#RewriteCond %{REQUEST_URI} !^/blog/
+#RewriteCond %{REQUEST_URI} !^/medicos/
+
+
+RewriteRule ^sitemap-general\.xml$ sitemap-dinamico.php [L]

@@ -1,0 +1,2 @@
+Sitemap: https://www.montefiori.com.pe/sitemap.xml
+Allow: /llms.txt

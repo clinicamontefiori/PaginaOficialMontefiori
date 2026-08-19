@@ -1,0 +1,18 @@
+# Clínica Montefiori | Salud y Bienestar en Perú
+> Clínica privada peruana con más de 40 años de experiencia ofreciendo atención médica integral en consulta ambulatoria, emergencias y hospitalización, combinando alta calidad con un trato humano y cercano.
+
+Somos un centro de salud moderno fundado en 1983 por un equipo de profesionales comprometidos con el bienestar del paciente. Nuestros valores son la excelencia médica, la calidez en el trato y la innovación tecnológica.
+
+## Servicios Médicos
+- [Servicios Clínicos](https://www.montefiori.com.pe/servicios): Descripción general de todas las áreas médicas, incluyes consulta externa, emergencia, hospitalización y procedimientos quirúrgicos.
+- [Especialidades Médicas](https://www.montefiori.com.pe/especialidades/): Listado completo de especialidades (cardiología, pediatría, ginecología, traumatología, etc.) con detalles de cada una.
+- [Cuerpo Médico](https://www.montefiori.com.pe/medicos/): Directorio de nuestros profesionales de la salud, incluyendo sus especialidades, horarios y cómo agendar una cita.
+
+## Información para Pacientes
+- [Guía para Pacientes](https://www.montefiori.com.pe/informacion-para-pacientes): Todo lo que necesitas saber antes de tu primera visita: documentos requeridos, seguros médicos afiliados, políticas de cita y procedimientos de hospitalización.
+
+## La Clínica
+- [Sobre Nosotros](https://www.montefiori.com.pe/nosotros): Historia, misión, visión y valores de Clínica Montefiori. Conoce nuestro equipo fundador y el compromiso que nos ha distinguido por más de cuatro décadas.
+
+## Optional
+- [Blog o Actualizaciones](https://www.montefiori.com.pe/blog): Artículos sobre prevención, consejos de salud y novedades de la clínica.
