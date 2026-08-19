@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 <div class=" md:flex gap-4">
                     <a href="${m.urlMedico || '#'}"
-                        class="px-5 py-3 text-sm font-bold text-slate-700 bg-white rounded-full border border-slate-300 hover:bg-slate-100">
+                        class="meta-medico-result px-5 py-3 text-sm font-bold text-slate-700 bg-white rounded-full border border-slate-300 hover:bg-slate-100">
                         Conócelo aquí
                     </a>
                     <a target="_blank" href="https://citas.montefiori.com.pe/home"

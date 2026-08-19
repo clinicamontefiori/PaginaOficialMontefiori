@@ -138,6 +138,9 @@ new SearchComponent('search-1', {
     },
 
     onSelect: (item) => {
+        if (typeof fbq === 'function') {
+            fbq('track', 'Search');
+        }
         window.location.href = "medicos/" + item.urlMedico;
     },
 
